@@ -1,0 +1,29 @@
+.car-list {
+    margin-top: 20px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 40px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .num-btn{
+    background-color: #f5f8fc;
+    color: #228cfd;
+    width: 40px;
+    text-align: center;
+    border-radius: 25px;
+  }
+  
+  .page-info{
+    font-size: large;
+    margin-left: 10px;
+  }

@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  background: linear-gradient(#dae6fb,#77aef7);
+  padding-top: 20px;
+  margin: 0px;
+}
+
+.top-head{
+  color: rgb(46, 126, 254);
+  font-size: 40px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+

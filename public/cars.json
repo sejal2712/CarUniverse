@@ -1,0 +1,457 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2022,
+      "avg": "30km/litre",
+      "image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": 2,
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2022,
+      "avg": "30km/litre",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkm-AZirSQNrESUWeRYiy7JoJaAsMq3njQnQ&usqp=CAU"
+    },
+    {
+      "id": 3,
+      "make": "Ford",
+      "model": "Mustang",
+      "year": 2022,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxpMQ0UjuN63hb9KkHPO4Cdvr0Ea_KnucCbw&usqp=CAU"
+    },
+    {
+      "id": 4,
+      "make": "Chevrolet",
+      "model": "Silverado",
+      "year": 2022,
+      "avg": "30km/litre",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkm-AZirSQNrESUWeRYiy7JoJaAsMq3njQnQ&usqp=CAU"
+    },
+    {
+      "id": 5,
+      "make": "Nissan",
+      "model": "Altima",
+      "year": 2022,
+      "avg": "30km/litre",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Kuebelwagen_1.jpg/400px-VW_Kuebelwagen_1.jpg"
+    },
+    {
+      "id": 6,
+      "make": "BMW",
+      "model": "3 Series",
+      "year": 2022,
+      "avg": "30km/litre",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkm-AZirSQNrESUWeRYiy7JoJaAsMq3njQnQ&usqp=CAU"
+    },
+    {
+      "id": 7,
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "year": 2022,
+      "avg": "30km/litre",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkm-AZirSQNrESUWeRYiy7JoJaAsMq3njQnQ&usqp=CAU"
+    },
+    {
+      "id": 8,
+      "make": "Audi",
+      "model": "A4",
+      "year": 2022,
+      "avg": "30km/litre",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Vintage_car_at_the_Wirral_Bus_%26_Tram_Show_-_DSC03336.JPG/400px-Vintage_car_at_the_Wirral_Bus_%26_Tram_Show_-_DSC03336.JPG"
+    },
+    {
+      "id": 9,
+      "make": "Tesla",
+      "model": "Model 3",
+      "year": 2022,
+      "avg": "30km/litre",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkm-AZirSQNrESUWeRYiy7JoJaAsMq3njQnQ&usqp=CAU"
+    },
+    {
+      "id": 10,
+      "make": "Volkswagen",
+      "model": "Golf",
+      "year": 2022,
+      "avg": "30km/litre",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Vintage_car_at_the_Wirral_Bus_%26_Tram_Show_-_DSC03336.JPG/400px-Vintage_car_at_the_Wirral_Bus_%26_Tram_Show_-_DSC03336.JPG"
+    },
+    {
+      "id": 11,
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2022,
+      "avg": "30km/litre",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkm-AZirSQNrESUWeRYiy7JoJaAsMq3njQnQ&usqp=CAU"
+    },
+    {
+      "id": 12,
+      "make": "Honda",
+      "model": "Civic",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkm-AZirSQNrESUWeRYiy7JoJaAsMq3njQnQ&usqp=CAU"
+    },
+    {
+      "id": 13,
+      "make": "Ford",
+      "model": "Mustang",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkm-AZirSQNrESUWeRYiy7JoJaAsMq3njQnQ&usqp=CAU"
+    },
+    {
+      "id": 14,
+      "make": "Chevrolet",
+      "model": "Silverado",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Kuebelwagen_1.jpg/400px-VW_Kuebelwagen_1.jpg"
+    },
+    {
+      "id": 15,
+      "make": "Nissan",
+      "avg": "30km/litre",
+      "model": "Altima",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg/400px-Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg"
+    },
+    {
+      "id": 16,
+      "make": "BMW",
+      "model": "3 Series",
+      "year": 2022,
+      "image": "https://ipravda.sk/res/2018/11/21/thumbs/lamborghini-sc18-2018_08-nestandard1.jpg"
+    },
+    {
+      "id": 17,
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "year": 2022,
+      "avg": "30km/litre",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Kuebelwagen_1.jpg/400px-VW_Kuebelwagen_1.jpg"
+    },
+    {
+      "id": 18,
+      "make": "Audi",
+      "model": "A4",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Vintage_car_at_the_Wirral_Bus_%26_Tram_Show_-_DSC03336.JPG/400px-Vintage_car_at_the_Wirral_Bus_%26_Tram_Show_-_DSC03336.JPG"
+    },
+    {
+      "id": 19,
+      "make": "Tesla",
+      "model": "Model 3",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Vintage_car_at_the_Wirral_Bus_%26_Tram_Show_-_DSC03336.JPG/400px-Vintage_car_at_the_Wirral_Bus_%26_Tram_Show_-_DSC03336.JPG"
+    },
+    {
+      "id": 20,
+      "make": "Volkswagen",
+      "model": "Golf",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Kuebelwagen_1.jpg/400px-VW_Kuebelwagen_1.jpg"
+    },
+    {
+      "id": 21,
+      "make": "Toyota",
+      "avg": "30km/litre",
+      "model": "Camry",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg/400px-Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg"
+    },
+    {
+      "id": 22,
+      "make": "Honda",
+      "model": "Civic",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Kuebelwagen_1.jpg/400px-VW_Kuebelwagen_1.jpg"
+    },
+    {
+      "id": 23,
+      "make": "Ford",
+      "model": "Mustang",
+      "year": 2022,
+      "avg": "30km/litre",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg/400px-Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg"
+    },
+    {
+      "id": 24,
+      "make": "Chevrolet",
+      "model": "Silverado",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Kuebelwagen_1.jpg/400px-VW_Kuebelwagen_1.jpg"
+    },
+    {
+      "id": 5,
+      "make": "Nissan",
+      "avg": "30km/litre",
+      "model": "Altima",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg/400px-Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg"
+    },
+    {
+      "id": 26,
+      "make": "BMW",
+      "model": "3 Series",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://ipravda.sk/res/2018/11/21/thumbs/lamborghini-sc18-2018_08-nestandard1.jpg"
+    },
+    {
+      "id": 27,
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "year": 2022,
+      "avg": "30km/litre",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg/400px-Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg"
+    },
+    {
+      "id": 28,
+      "make": "Audi",
+      "model": "A4",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Kuebelwagen_1.jpg/400px-VW_Kuebelwagen_1.jpg"
+    },
+    {
+      "id": 29,
+      "make": "Tesla",
+      "model": "Model 3",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg/400px-Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg"
+    },
+    {
+      "id": 30,
+      "make": "Volkswagen",
+      "model": "Golf",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Kuebelwagen_1.jpg/400px-VW_Kuebelwagen_1.jpg"
+    },
+    {
+      "id": 31,
+      "make": "Toyota",
+      "model": "Camry",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg/400px-Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg"
+    },
+    {
+      "id": 32,
+      "make": "Honda",
+      "model": "Civic",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Kuebelwagen_1.jpg/400px-VW_Kuebelwagen_1.jpg"
+    },
+    {
+      "id": 33,
+      "make": "Ford",
+      "avg": "30km/litre",
+      "model": "Mustang",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg/400px-Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg"
+    },
+    {
+      "id": 34,
+      "make": "Chevrolet",
+      "model": "Silverado",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg/400px-Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg"
+    },
+    {
+      "id": 35,
+      "make": "Nissan",
+      "model": "Altima",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Kuebelwagen_1.jpg/400px-VW_Kuebelwagen_1.jpg"
+    },
+    {
+      "id": 36,
+      "make": "BMW",
+      "model": "3 Series",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://ipravda.sk/res/2018/11/21/thumbs/lamborghini-sc18-2018_08-nestandard1.jpg"
+    },
+    {
+      "id": 37,
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/1971_AMC_Javelin_SST_red_Kenosha_street.JPG/400px-1971_AMC_Javelin_SST_red_Kenosha_street.JPG"
+    },
+    {
+      "id": 38,
+      "make": "Audi",
+      "avg": "30km/litre",
+      "model": "A4",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Kuebelwagen_1.jpg/400px-VW_Kuebelwagen_1.jpg"
+    },
+    {
+      "id": 39,
+      "make": "Tesla",
+      "model": "Model 3",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/1971_AMC_Javelin_SST_red_Kenosha_street.JPG/400px-1971_AMC_Javelin_SST_red_Kenosha_street.JPG"
+    },
+    {
+      "id": 40,
+      "make": "Volkswagen",
+      "model": "Golf",
+      "year": 2022,
+      "avg": "30km/litre",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Kuebelwagen_1.jpg/400px-VW_Kuebelwagen_1.jpg"
+    },
+    {
+      "id": 41,
+      "make": "Toyota",
+      "model": "Camry",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/1971_AMC_Javelin_SST_red_Kenosha_street.JPG/400px-1971_AMC_Javelin_SST_red_Kenosha_street.JPG"
+    },
+    {
+      "id": 42,
+      "make": "Honda",
+      "avg": "30km/litre",
+      "model": "Civic",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg/400px-Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg"
+    },
+    {
+      "id": 43,
+      "make": "Ford",
+      "avg": "30km/litre",
+      "model": "Mustang",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Kuebelwagen_1.jpg/400px-VW_Kuebelwagen_1.jpg"
+    },
+    {
+      "id": 44,
+      "make": "Chevrolet",
+      "model": "Silverado",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/1971_AMC_Javelin_SST_red_Kenosha_street.JPG/400px-1971_AMC_Javelin_SST_red_Kenosha_street.JPG"
+    },
+    {
+      "id": 45,
+      "make": "Nissan",
+      "model": "Altima",
+      "year": 2022,
+      "avg": "30km/litre",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Kuebelwagen_1.jpg/400px-VW_Kuebelwagen_1.jpg"
+    },
+    {
+      "id": 46,
+      "make": "BMW",
+      "model": "3 Series",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://ipravda.sk/res/2018/11/21/thumbs/lamborghini-sc18-2018_08-nestandard1.jpg"
+    },
+    {
+      "id": 47,
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg/400px-Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg"
+    },
+    {
+      "id": 48,
+      "make": "Audi",
+      "avg": "30km/litre",
+      "model": "A4",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/1971_AMC_Javelin_SST_red_Kenosha_street.JPG/400px-1971_AMC_Javelin_SST_red_Kenosha_street.JPG"
+    },
+    {
+      "id": 49,
+      "make": "Tesla",
+      "model": "Model 3",
+      "avg": "30km/litre",
+      "year": 2022,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Kuebelwagen_1.jpg/400px-VW_Kuebelwagen_1.jpg"
+    },
+    {
+      "id": 50,
+      "make": "Volkswagen",
+      "model": "Golf",
+      "year": 2022,
+      "avg": "30km/litre",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/1971_AMC_Javelin_SST_red_Kenosha_street.JPG/400px-1971_AMC_Javelin_SST_red_Kenosha_street.JPG"
+    },
+    {
+      "id": 51,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/2015_Mazda_MX-5_ND_2.0_SKYACTIV-G_160_i-ELOOP_Rubinrot-Metallic_Vorderansicht.jpg/400px-2015_Mazda_MX-5_ND_2.0_SKYACTIV-G_160_i-ELOOP_Rubinrot-Metallic_Vorderansicht.jpg",
+      "make": "Mazda MX-5",
+      "avg": "30km/litre",
+      "year": 1989,
+      "model": "Sports car Roadster"
+    },
+    {
+      "id": 50,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Kuebelwagen_1.jpg/400px-VW_Kuebelwagen_1.jpg",
+      "make": "Volkswagen Kübelwagen",
+      "avg": "30km/litre",
+      "model": "Military vehicle"
+    },
+    {
+      "id": 50,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/2014_Porsche_Cayenne_%2892A_MY14%29_GTS_wagon_%282015-08-07%29_01.jpg/400px-2014_Porsche_Cayenne_%2892A_MY14%29_GTS_wagon_%282015-08-07%29_01.jpg",
+      "make": "Porsche Cayenne",
+      "avg": "30km/litre",
+      "year": 2002,
+      "model": "Mid-size luxury crossover SUV"
+    },
+    {
+      "id": 50,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Vintage_car_at_the_Wirral_Bus_%26_Tram_Show_-_DSC03336.JPG/400px-Vintage_car_at_the_Wirral_Bus_%26_Tram_Show_-_DSC03336.JPG",
+      "make": "Vauxhall Chevette",
+      "year": 1975,
+      "avg": "30km/litre",
+      "model": "Supermini"
+    },
+    {
+      "id": 50,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg/400px-Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg",
+      "make": "Dymaxion car",
+      "year": 1933,
+      "avg": "30km/litre",
+      "model": "Concept car"
+    },
+    {
+      "id": 50,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Ford_Crown_Victoria_LX.jpg/400px-Ford_Crown_Victoria_LX.jpg",
+      "make": "Ford Crown Victoria",
+      "year": 1955,
+      "avg": "30km/litre",
+      "model": "Full-size Ford"
+    },
+    {
+      "id": 50,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Plymouth_Superbird.jpg/400px-Plymouth_Superbird.jpg",
+      "make": "Plymouth Superbird",
+      "year": 1970,
+      "avg": "30km/litre",
+      "model": "Muscle car(today) and Race car(Past)"
+    }
+  ]
+}
